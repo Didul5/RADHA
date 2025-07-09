@@ -106,7 +106,7 @@ Follow both Option A and Option B to have both models available for switching.
 
 Create a requirements.txt file with the following content:
 
-
+```
 # Core dependencies
 fastapi
 uvicorn
@@ -128,7 +128,7 @@ pyaudio  # For microphone support
 # Utilities
 colorama
 python-multipart
-
+```
 
 ## 🎮 Usage
 
