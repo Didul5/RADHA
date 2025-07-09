@@ -14,7 +14,7 @@ huggingface-hub
 # Speech and Audio
 pyttsx3
 SpeechRecognition
-pyaudio  # For microphone support
+#pyaudio  # For microphone support
 
 # Utilities
 colorama
