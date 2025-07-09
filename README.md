@@ -21,20 +21,7 @@ A unified AI-powered interactive learning assistant that combines the power of O
 ## 📁 Project Structure
 
 
-RADHA/
-├── main.py              # Unified core functionality for both models
-├── api.py               # FastAPI backend server
-├── app.py               # Streamlit web interface
-├── cli.py               # Command-line interface
-├── requirements.txt     # Python dependencies
-├── .env                 # Environment variables (create this)
-├── README.md            # This file
-└── Qwen2.5-7B-Instruct-int4-ov/  # Qwen model directory (optional)
-    ├── openvino_tokenizer.xml
-    ├── openvino_tokenizer.bin
-    ├── openvino_model.xml
-    ├── openvino_model.bin
-    └── config.json
+<pre lang="markdown"> ## 📁 Project Structure ``` RADHA/ ├── main.py # Unified core functionality for both models ├── api.py # FastAPI backend server ├── app.py # Streamlit web interface ├── cli.py # Command-line interface ├── requirements.txt # Python dependencies ├── .env # Environment variables (do not push) ├── README.md # This file ├── Qwen2.5-7B-Instruct-int4-ov/ # Qwen model directory (optional) │ ├── openvino_tokenizer.xml │ ├── openvino_tokenizer.bin │ ├── openvino_model.xml │ ├── openvino_model.bin │ └── config.json ``` </pre>
 
 
 ## 🚀 Installation
