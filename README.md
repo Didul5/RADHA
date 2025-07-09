@@ -18,7 +18,7 @@ A unified AI-powered interactive learning assistant that combines the power of O
 - *Beautiful UI*: Modern, responsive Streamlit interface
 - *CLI Support*: Full-featured command-line interface
 
-## Project Structure
+## 📁 Project Structure
 
 
 RADHA/
