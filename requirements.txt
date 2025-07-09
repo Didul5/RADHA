@@ -1,0 +1,21 @@
+# Core dependencies
+fastapi
+uvicorn
+streamlit
+python-dotenv
+requests
+pydantic
+
+# AI Models
+groq
+openvino-genai
+huggingface-hub
+
+# Speech and Audio
+pyttsx3
+SpeechRecognition
+pyaudio  # For microphone support
+
+# Utilities
+colorama
+python-multipart
