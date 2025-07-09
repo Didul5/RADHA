@@ -92,8 +92,8 @@ GROQ_API_KEY=your_groq_api_key_here
 pip install huggingface-hub
 huggingface-cli download OpenVINO/Qwen2.5-7B-Instruct-int4-ov --local-dir ./Qwen2.5-7B-Instruct-int4-ov
 ```
-# Or manually download from:
-# https://huggingface.co/OpenVINO/Qwen2.5-7B-Instruct-int4-ov
+#### Or manually download from:
+#### https://huggingface.co/OpenVINO/Qwen2.5-7B-Instruct-int4-ov
 
 
 2. Ensure the model files are in the Qwen2.5-7B-Instruct-int4-ov/ directory
