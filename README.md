@@ -47,8 +47,9 @@ RADHA/
 - Speakers (for text-to-speech)
 
 ### Step 1: Clone the Repository
-```
+
 bash
+```
 git clone https://github.com/yourusername/RADHA.git
 cd RADHA
 ```
