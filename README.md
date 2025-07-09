@@ -48,7 +48,6 @@ RADHA/
 
 ### Step 1: Clone the Repository
 
-bash
 ```
 git clone https://github.com/yourusername/RADHA.git
 cd RADHA
@@ -56,21 +55,22 @@ cd RADHA
 
 ### Step 2: Create Virtual Environment
 
-bash
+```
 # Windows
 python -m venv venv
 venv\Scripts\activate
-
+```
+```
 # Linux/Mac
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 ### Step 3: Install Dependencies
 
-bash
+```
 pip install -r requirements.txt
-
+```
 
 ### Step 4: Set Up Models
 
@@ -79,19 +79,19 @@ pip install -r requirements.txt
 1. Sign up for a free Groq API key at [https://console.groq.com](https://console.groq.com)
 2. Create a .env file in the project root:
 
-bash
+```
 GROQ_API_KEY=your_groq_api_key_here
-
+```
 
 #### Option B: Qwen Model (Local, Privacy-Focused)
 
 1. Download the Qwen 2.5-7B INT4 model:
 
-bash
+```
 # Using Hugging Face CLI
 pip install huggingface-hub
 huggingface-cli download OpenVINO/Qwen2.5-7B-Instruct-int4-ov --local-dir ./Qwen2.5-7B-Instruct-int4-ov
-
+```
 # Or manually download from:
 # https://huggingface.co/OpenVINO/Qwen2.5-7B-Instruct-int4-ov
 
@@ -136,9 +136,9 @@ python-multipart
 
 First, always start the backend API server:
 
-bash
+```
 python api.py
-
+```
 
 The API will start on http://localhost:8000
 
@@ -148,9 +148,9 @@ The API will start on http://localhost:8000
 
 In a new terminal:
 
-bash
+```
 streamlit run app.py
-
+```
 
 Open your browser to http://localhost:8501
 
@@ -158,7 +158,7 @@ Open your browser to http://localhost:8501
 
 In a new terminal:
 
-bash
+```
 # Interactive mode
 python cli.py
 
@@ -170,7 +170,7 @@ python cli.py --mode quick --action doubt --query "How does photosynthesis work?
 python cli.py --model qwen  # Use Qwen model
 python cli.py --model groq  # Use Groq API
 python cli.py --model auto  # Auto-select (default)
-
+```
 
 ## 🔧 Configuration
 
@@ -178,13 +178,13 @@ python cli.py --model auto  # Auto-select (default)
 
 Create a .env file with:
 
-bash
+```
 # Groq API Configuration
 GROQ_API_KEY=your_groq_api_key_here
 
 # Optional: OpenVINO Configuration
 OPENVINO_DEVICE=CPU  # or GPU, AUTO
-
+```
 
 ### Model Selection
 
