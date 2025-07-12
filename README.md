@@ -2,6 +2,10 @@
 
 A unified AI-powered interactive learning assistant that combines the power of OpenVINO-optimized Qwen model (local) and Groq API (cloud) to provide comprehensive educational support.
 
+## Detailed Report
+
+You can find the detailed report at: https://drive.google.com/file/d/19fIHyRv-5KbtKiW2g3yp9R4Vx6rLZpao/view?usp=drive_link
+
 ## 🌟 Features
 
 - *Dual AI Models*: Choose between local Qwen 2.5-7B (privacy-focused) or Groq Llama 3.3-70B (performance-focused)
