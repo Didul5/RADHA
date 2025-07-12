@@ -6,6 +6,10 @@ A unified AI-powered interactive learning assistant that combines the power of O
 
 You can find the detailed report at: https://drive.google.com/file/d/19fIHyRv-5KbtKiW2g3yp9R4Vx6rLZpao/view?usp=drive_link
 
+## Demo Video
+
+You can find the demo video here: https://drive.google.com/file/d/1qYpDMUo2Yg7P7SMd0NZBUzuAqSEfZNuc/view?usp=drive_link
+
 ## 🌟 Features
 
 - *Dual AI Models*: Choose between local Qwen 2.5-7B (privacy-focused) or Groq Llama 3.3-70B (performance-focused)
